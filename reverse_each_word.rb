@@ -13,7 +13,7 @@ def reverse_each_word(string)
   array.collect do|string|
     second_array << string.reverse
   end
-  test_array.join(" ")
+  second_array.join(" ")
 end
 
 reverse_each_word("Hello there, and how are you?")
